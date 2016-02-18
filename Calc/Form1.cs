@@ -16,5 +16,19 @@ namespace Calc
         {
             InitializeComponent();
         }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            char[] String2Compute = textBox1.ToString().ToCharArray();
+            int[] What2Compute = new int[String2Compute.Length];
+            int i = 0;
+            while (i < String2Compute.Length)
+            {
+                What2Compute[i] = (int)(String2Compute[i]);
+                i++;
+            }
+
+            What2Compute.Sum;
+        }
     }
 }
