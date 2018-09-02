@@ -28,7 +28,7 @@ namespace Calc
                 i++;
             }
 
-            What2Compute.Sum;
+            //What2Compute.Sum;
         }
     }
 }
